@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "286825966291",
+    "firebase_url": "https://tbheroagent-moajhb.firebaseio.com",
+    "project_id": "tbheroagent-moajhb",
+    "storage_bucket": "tbheroagent-moajhb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286825966291:android:3d3c7767635ac762f7c226",
+        "android_client_info": {
+          "package_name": "com.secdev.mvpchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286825966291-rb3hd1u83v9sr697mdut0soeurt7ll68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuReLXiMUg0lGrsXPhzxeGkkFM3Csl0ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286825966291-05jh8h7naosd7potqfhinsfj5u2sfbai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286825966291:android:c86cfae4ae49d9b1f7c226",
+        "android_client_info": {
+          "package_name": "com.secdev.secretservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286825966291-rb3hd1u83v9sr697mdut0soeurt7ll68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuReLXiMUg0lGrsXPhzxeGkkFM3Csl0ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286825966291-05jh8h7naosd7potqfhinsfj5u2sfbai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
