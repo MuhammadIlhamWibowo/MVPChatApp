@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_phone"
+        android:icon="@drawable/ic_phone"
+        android:title="Panggilan" />
+    <item
+        android:id="@+id/bottom_camera"
+        android:icon="@drawable/ic_camera"
+        android:title="Kamera" />
+    <item
+        android:id="@+id/bottom_messages"
+        android:icon="@drawable/ic_messages"
+        android:title="Pesan" />
+    <item
+        android:id="@+id/bottom_contact"
+        android:icon="@drawable/ic_users"
+        android:title="Kontak" />
+</menu>

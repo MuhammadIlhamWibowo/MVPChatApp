@@ -3,13 +3,14 @@
     package="com.secdev.mvpchatapp">
 
     <application
+        android:name=".MVPChatApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".module.contact.add_new_contact.AddNewContactActivity"></activity>
+        <activity android:name=".module.contact.add_new_contact.AddNewContactActivity" />
         <activity android:name=".module.chat.message.MessageActivity" />
         <activity android:name=".module.contact.contact_list.add_new_chat.AddNewChatActivity" />
         <activity android:name=".module.contact.contact_detail.ContactDetailActivity" />

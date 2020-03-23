@@ -3,6 +3,7 @@ package com.secdev.mvpchatapp.utils
 import android.content.Context
 import android.content.Intent
 import com.secdev.mvpchatapp.module.auth.login.LoginActivity
+import com.secdev.mvpchatapp.module.contact.add_new_contact.AddNewContactActivity
 import com.secdev.mvpchatapp.module.home.MainActivity
 
 fun Context.startHomeActivity() =

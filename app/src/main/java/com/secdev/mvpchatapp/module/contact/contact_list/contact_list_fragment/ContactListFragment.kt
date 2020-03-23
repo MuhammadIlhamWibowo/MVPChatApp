@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.secdev.mvpchatapp.R
 import com.secdev.mvpchatapp.adapter.ContactAdapter
 import com.secdev.mvpchatapp.data.model.Users
+import com.secdev.mvpchatapp.module.contact.add_new_contact.AddNewContactActivity
 import com.secdev.mvpchatapp.module.contact.contact_detail.ContactDetailActivity
 import com.secdev.mvpchatapp.module.contact.contact_list.ContactListContract
 import com.secdev.mvpchatapp.module.contact.contact_list.ContactListPresenter
@@ -37,6 +38,10 @@ class ContactListFragment : Fragment(),
         presenter
         onAttachView()
         presenter.doGetContacts()
+        btnAddNewContact.setOnClickListener {
+            val addContactIntent = Intent(context, AddNewContactActivity::class.java)
+            startActivity(addContactIntent)
+        }
     }
 
     override fun isSuccessGetContacts(contacts: MutableList<Users>) {
@@ -81,5 +86,14 @@ class ContactListFragment : Fragment(),
     override fun onDestroy() {
         super.onDestroy()
         presenter.onDettach()
+    }
+
+    companion object {
+        fun newInstance(): ContactListFragment {
+            val fragment = ContactListFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            return fragment
+        }
     }
 }

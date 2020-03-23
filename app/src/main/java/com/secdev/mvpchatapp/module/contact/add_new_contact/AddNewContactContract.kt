@@ -4,7 +4,7 @@ import com.secdev.mvpchatapp.base.BaseView
 
 interface AddNewContactContract {
     interface PresenterInterface {
-        fun AddContactToDatabase(phoneNumber: String)
+        fun addContactToDatabase(phoneNumber: String)
     }
 
     interface ViewPresenter : BaseView {

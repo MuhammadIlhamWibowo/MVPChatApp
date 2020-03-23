@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <com.secdev.mvpchatapp.utils.TextInputLayout
+        android:id="@+id/inputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/AppTheme.TextInputLayout">
+        
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:singleLine="true"
+            android:drawablePadding="8dp"
+            tools:hint="Email"
+            tools:inputType="textEmailAddress"/>
+    
+    </com.secdev.mvpchatapp.utils.TextInputLayout>
+</FrameLayout>
